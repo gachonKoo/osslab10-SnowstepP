@@ -2,9 +2,9 @@ import sys
 
 number = int(sys.argv[1])
 
-for i in range(number + 1):
-	if range % i == 0:
-		print(i, end = " ")
+for i in range(number):
+	if number % (i + 1) == 0:
+		print(i + 1, end = " ")
 
 
 print()
